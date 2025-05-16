@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Цветочный магазин «В саду»</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Шапка -->
+  <header class="bg-green-100 py-6 shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-green-800">В саду</h1>
+      <nav class="space-x-4">
+        <a href="#catalog" class="text-green-700 hover:underline">Каталог</a>
+        <a href="#about" class="text-green-700 hover:underline">О нас</a>
+        <a href="#contacts" class="text-green-700 hover:underline">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Приветствие -->
+  <section class="py-12 text-center">
+    <h2 class="text-4xl font-semibold mb-4">Свежие цветы каждый день</h2>
+    <p class="text-lg text-gray-600 mb-6">Создаём букеты с душой прямо рядом с вами</p>
+    <a href="#catalog" class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Посмотреть каталог</a>
+  </section>
+
+  <!-- Каталог -->
+  <section id="catalog" class="py-12 bg-green-50">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-6 text-green-800">Популярные букеты</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl shadow overflow-hidden">
+          <img src="bouquet1.jpg" alt="Нежность" class="h-60 w-full object-cover" />
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Нежность</h4>
+            <p class="text-green-700 font-bold">1 500₽</p>
+            <button class="mt-2 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded w-full">Заказать</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow overflow-hidden">
+          <img src="bouquet2.jpg" alt="Яркий день" class="h-60 w-full object-cover" />
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Яркий день</h4>
+            <p class="text-green-700 font-bold">1 800₽</p>
+            <button class="mt-2 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded w-full">Заказать</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow overflow-hidden">
+          <img src="bouquet3.jpg" alt="Летний ветер" class="h-60 w-full object-cover" />
+          <div class="p-4">
+            <h4 class="font-semibold text-lg">Летний ветер</h4>
+            <p class="text-green-700 font-bold">2 000₽</p>
+            <button class="mt-2 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded w-full">Заказать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center max-w-2xl">
+      <h3 class="text-2xl font-bold mb-4 text-green-800">О магазине «В саду»</h3>
+      <p class="text-gray-600">
+        Мы — уютный цветочный магазин в спальном районе. Создаём букеты для любого повода и без повода, с любовью и вниманием к деталям. У нас всегда свежие цветы, удобное расположение и быстрая доставка.
+      </p>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contacts" class="py-12 bg-green-100">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold text-green-800 mb-4">Контакты</h3>
+      <p class="mb-2">г. [Ваш город], ул. [Адрес], рядом с остановкой</p>
+      <p class="mb-2">+7 (900) 000-00-00</p>
+      <p>Instagram: <a href="https://instagram.com/ваш_аккаунт" class="text-green-700 underline">@ваш_аккаунт</a></p>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="bg-green-800 text-white text-center py-4">
+    © 2025 В саду. Все права защищены.
+  </footer>
+</body>
+</html>
